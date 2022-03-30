@@ -1,4 +1,4 @@
-#Python2.7 & 3 -> installation voir requirements.py
+#Python2.7 & 3 
 
 import os
 import tkinter

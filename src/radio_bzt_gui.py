@@ -14,7 +14,7 @@ root.geometry("300x400")
 root.title("RadioBZT")
 root.configure(background="black")
 
-background_image = PhotoImage(file="rbzt.png")
+background_image = PhotoImage(file="/img/rbzt.png")
 background = Label(root,image=background_image,bd=0).pack()
 
 label_title = Label(root,text="RadioBZT",bg="white",font=("Times New Roman",20)).place(x=95,y=20)

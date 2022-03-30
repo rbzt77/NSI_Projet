@@ -1,0 +1,32 @@
+body
+{
+	background-color: black;
+
+}
+img
+{
+	opacity: 0.9;
+}
+
+
+.grand-titre
+{
+	color: 	purple;
+	font-size: 70px;
+	text-align:center;
+	font-family: Orbitron;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px blue;
+}
+
+.case
+{
+	color: blue;
+    width: 100%;
+}
+.submit
+{
+	width: 50;
+	height: 50
+}
+

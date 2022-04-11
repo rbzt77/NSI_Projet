@@ -48,7 +48,7 @@ def main():
     print("[ * ] Generation de la Station FM...")
     sleep(0.5)
     payload = "sudo sox -t mp3 /home/pi/fm_transmitter/musiques/%s -t wav - | sudo /home/pi/fm_transmitter/fm_transmitter -f %s -r -" %(nom_musique,frequence)
-    shell("sshpass -p '%s' ssh  -p %s %s@%s '%s && %s'"%(PASS_SSH,port,user_ssh,ip_ssh,payload))
+    shell("sshpass -p '%s' ssh  -p %s %s@%s '%s'"%(PASS_SSH,port,user_ssh,ip_ssh,payload))
 
 def exit():
     root.destroy()

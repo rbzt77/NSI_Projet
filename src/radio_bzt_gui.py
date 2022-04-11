@@ -47,8 +47,8 @@ liste.place(x=18,y=85)
 def main():
     print("[ * ] Generation de la Station FM...")
     sleep(0.5)
-    payload = "sox -t mp3 /home/pi/fm_transmitter/musiques/%s -t wav - | ./fm_transmitter -f %s -r -" %(nom_musique,frequence)
-    shell("sshpass -p '%s' ssh  -p %s %s@%s '%s && %s'"%(PASS_SSH,port,user_ssh,ip_ssh,location_fmtransmitter,payload))
+    payload = "sudo sox -t mp3 /home/pi/fm_transmitter/musiques/%s -t wav - | sudo /home/pi/fm_transmitter/fm_transmitter -f %s -r -" %(nom_musique,frequence)
+    shell("sshpass -p '%s' ssh  -p %s %s@%s '%s && %s'"%(PASS_SSH,port,user_ssh,ip_ssh,payload))
 
 def exit():
     root.destroy()

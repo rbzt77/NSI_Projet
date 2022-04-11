@@ -1,4 +1,4 @@
-#Python2.7 & 3 
+#Python2.7 & 3 -> Application Graphique RadioBZT
 
 import os
 import tkinter

@@ -1,4 +1,4 @@
-#lanceur radio car system() func en php bug avec le bash en brut 
+#lanceur radio car system(),shell_exec(),exec() func en php bug avec le bash en brut 
 
 import os
 import sys

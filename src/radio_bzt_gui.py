@@ -20,7 +20,7 @@ background = Label(root,image=background_image,bd=0).pack()
 label_title = Label(root,text="RadioBZT",bg="white",font=("Times New Roman",20)).place(x=95,y=20)
 
 #verification des arguments STDIN
-if len(sys.argv) < 2:
+if len(sys.argv) < 3:
     print("Usage: python RadioBZT.py Frenquence Musique")
     sys.exit()
 

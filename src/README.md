@@ -1,3 +1,5 @@
+<img src="https://github.com/rbzt77/NSI_Projet/blob/main/src/img/logo_rbzt.png" width="400" height="150">
+
 **Installation Client:**
 <br>`shell~: sudo apt-get update && sudo apt-get install git && git clone https://github.com/rbzt77/NSI_Projet/blob/main/src/installation_serveur.sh && sudo mv installation_server.sh /root`
 

@@ -1,5 +1,6 @@
 #Python2.7 & 3 -> Application Graphique RadioBZT
 
+#importations de librairies 
 import os
 import tkinter
 import sys
@@ -26,11 +27,11 @@ if len(sys.argv) < 3:
 
 #configuration des logs & autres
 location_fmtransmitter = "cd /home/pi/fm_transmitter"
-ip_ssh = '172.20.10.3'
-port = '22'
-user_ssh = 'pi'
+ip_ssh = '172.20.10.3' #adresse ip locale du RPI3
+port = '22' #default SSH port 
+user_ssh = 'pi' #default user RPI3
 nom_musique = sys.argv[2]
-PASS_SSH = 'raspberry'
+PASS_SSH = 'raspberry' #default password RPI3
 frequence = float(sys.argv[1])
 
 #page principale

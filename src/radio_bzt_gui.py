@@ -21,7 +21,7 @@ label_title = Label(root,text="RadioBZT",bg="white",font=("Times New Roman",20))
 
 #verification des arguments STDIN
 if len(sys.argv) < 3:
-    print("Usage: python RadioBZT.py Frenquence Musique")
+    print("Usage: python3 radio_bzt_gui.py Frenquence Musique")
     sys.exit()
 
 #configuration des logs & autres

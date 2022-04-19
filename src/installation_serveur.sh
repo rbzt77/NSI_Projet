@@ -11,11 +11,11 @@ echo "			╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝
 echo "							       Installation"
 echo ""
 
-apt-get update
-apt-get install git
-git clone https://github.com/markondej/fm_transmitter
+sudo apt-get update
+sudo apt-get install git
+sudo git clone https://github.com/markondej/fm_transmitter
 cd fm_transmitter
-apt-get install make gcc g++
+sudo apt-get install make gcc g++
 make
 echo ""
 echo " Installation Fini"
